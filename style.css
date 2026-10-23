@@ -1,0 +1,61 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(27, 141, 70, 0.747);
+}
+.nav_link{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    color: white;
+}
+.links{
+    display: flex;
+    
+}
+.links div{
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.links div:hover{
+    color: red;
+    
+}
+.conts{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.conts img{
+    width: 400px;
+    border-radius: 50px;
+    height: 400px;
+    margin:40px;
+}
+.conts h2{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.conts h1{
+    color: blue;
+    font-size: 80px;
+    
+}
+.conts p{
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    line-height: 1.8;
+}
+button{
+    padding: 20px 40px;
+    margin: 40px;
+    border-radius: 20px;
+}
